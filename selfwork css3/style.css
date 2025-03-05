@@ -1,0 +1,70 @@
+* {
+    font-family: "Karla", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  }
+nav{
+  background-color: rgb(75, 70, 70);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+  .titolo{
+    font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: red;
+  }
+  h1{
+    color: blue;
+  }
+  div :hover{
+    background-color: yellow;  
+  }
+  .logoaulab{
+    width: 100px;
+    height: 100px;
+
+  }
+  .link{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+  }
+  .link:hover{
+    border-bottom: 2px solid yellow;
+
+  }
+  .listLink{
+    display: flex;
+    list-style-type: none;
+  }
+  .aside1{
+    display: flex;
+    background-color: yellow;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .flex{
+    display: flex;
+    width: 60%;
+  }
+  .aulab1{
+    width: 300px;
+  }
+  .TornaSu{
+    display: flex;
+    justify-content: end;
+  }
+  @media screen and (max-width:600px) {
+.navbar{
+  min-height: 40vh;
+}
+.flex{
+  flex-direction: column;
+}
+    
+  }
+
